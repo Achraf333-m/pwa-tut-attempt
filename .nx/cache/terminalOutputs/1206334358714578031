@@ -1,0 +1,6 @@
+npm ERR! Missing script: "--script="
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: C:\Users\achra\AppData\Local\npm-cache\_logs\2023-11-05T19_48_54_465Z-debug-0.log

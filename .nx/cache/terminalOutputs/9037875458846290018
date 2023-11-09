@@ -1,0 +1,1469 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.35 MB |
+polyfills.js          | polyfills     | 333.17 kB |
+styles.css, styles.js | styles        | 230.91 kB |
+main.js               | main          |  48.73 kB |
+runtime.js            | runtime       |   6.52 kB |
+
+| Initial Total |   2.96 MB
+
+Build at: 2023-11-04T19:38:42.827Z - Hash: 1724246fccac4723 - Time: 18064ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 50.19 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-04T19:44:58.190Z - Hash: 7d15912eb7257d90 - Time: 879ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.12 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-04T19:46:47.397Z - Hash: e99ee1e6fbbeca98 - Time: 1007ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.22 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-04T19:46:48.625Z - Hash: ef29652291d935fa - Time: 269ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.12 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-04T19:46:50.540Z - Hash: ba6e7535c8b0cd70 - Time: 266ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  6.95 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-04T19:46:52.845Z - Hash: 17ecf83c072251be - Time: 340ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "app" not terminated.
+
+[7m1[0m <app
+[7m [0m [91m~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  6.95 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-04T19:46:55.375Z - Hash: c9241a6059a02abb - Time: 202ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "app-square" not terminated.
+
+[7m1[0m <app-square
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.46 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-04T19:46:56.778Z - Hash: 418c400f62692af2 - Time: 239ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  7.65 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-04T19:47:14.242Z - Hash: 47f004aed4badab4 - Time: 546ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T01:58:23.311Z - Hash: a04f39b731b4207c - Time: 2449ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:02:40.175Z - Hash: 7db239dc70b12af4 - Time: 308ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:02:46.858Z - Hash: 90bcd5e0d42cc00a - Time: 245ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS7008: [0mMember 'squares' implicitly has an 'any' type.
+
+[7m9[0m   squares
+[7m [0m [91m  ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:02:49.618Z - Hash: e9bdcb14d2cb7999 - Time: 336ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:02:51.411Z - Hash: b255d4df026b7d77 - Time: 238ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[]
+[7m [0m [91m  ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:02:53.977Z - Hash: b4253d429b045238 - Time: 173ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:02:55.428Z - Hash: 21e1546e664ad1db - Time: 190ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS7008: [0mMember 'x' implicitly has an 'any' type.
+
+[7m10[0m   x
+[7m  [0m [91m  ~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:02:59.202Z - Hash: 089518cb1498952b - Time: 195ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS7008: [0mMember 'xIsNext' implicitly has an 'any' type.
+
+[7m10[0m   xIsNext
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:04.215Z - Hash: 67bfd6d8b5edbec4 - Time: 217ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:12.128Z - Hash: 4e760795c4f2436d - Time: 222ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m11[0m - [91merror[0m[90m TS2552: [0mCannot find name 'strin'. Did you mean 'string'?
+
+[7m11[0m   winner: strin
+[7m  [0m [91m          ~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:13.591Z - Hash: b638675272b4284c - Time: 254ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:19.527Z - Hash: b3233fe00fc65338 - Time: 201ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m1[0m:[93m21[0m - [91merror[0m[90m TS2305: [0mModule '"@angular/core"' has no exported member 'on'.
+
+[7m1[0m import { Component, on } from '@angular/core';
+[7m [0m [91m                    ~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:21.315Z - Hash: 593476721769e48d - Time: 192ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:27.292Z - Hash: cea58d8ee0d84df0 - Time: 162ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m8[0m:[93m40[0m - [91merror[0m[90m TS2500: [0mA class can only implement an identifier/qualified-name with optional type arguments.
+
+[7m  8[0m export class BoardComponent implements {
+[7m   [0m [91m                                       ~[0m
+[7m  9[0m   squares: any[];
+[7m   [0m [91m~~~~~~~~~~~~~~~~~[0m
+[7m...[0m 
+[7m 11[0m   winner: string
+[7m   [0m [91m~~~~~~~~~~~~~~~~[0m
+[7m 12[0m }
+[7m   [0m [91m~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m16[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m               [0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m                ~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m                  ~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m13[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'{' expected.
+
+[7m13[0m 
+[7m  [0m [91m[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:31.225Z - Hash: 34c340efa9a68884 - Time: 359ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m8[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BoardComponent' incorrectly implements interface 'OnInit'.
+  Property 'ngOnInit' is missing in type 'BoardComponent' but required in type 'OnInit'.
+
+[7m8[0m export class BoardComponent implements OnInit {
+[7m [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@angular/core/index.d.ts[0m:[93m6454[0m:[93m5[0m
+    [7m6454[0m     ngOnInit(): void;
+    [7m    [0m [96m    ~~~~~~~~~~~~~~~~~[0m
+    'ngOnInit' is declared here.
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:43.782Z - Hash: d8878a2f9fd8ddaf - Time: 486ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m8[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BoardComponent' incorrectly implements interface 'OnInit'.
+  Property 'ngOnInit' is missing in type 'BoardComponent' but required in type 'OnInit'.
+
+[7m8[0m export class BoardComponent implements OnInit {
+[7m [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@angular/core/index.d.ts[0m:[93m6454[0m:[93m5[0m
+    [7m6454[0m     ngOnInit(): void;
+    [7m    [0m [96m    ~~~~~~~~~~~~~~~~~[0m
+    'ngOnInit' is declared here.
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:46.537Z - Hash: 4438ad10faa2ced4 - Time: 498ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m8[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BoardComponent' incorrectly implements interface 'OnInit'.
+  Property 'ngOnInit' is missing in type 'BoardComponent' but required in type 'OnInit'.
+
+[7m8[0m export class BoardComponent implements OnInit {
+[7m [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@angular/core/index.d.ts[0m:[93m6454[0m:[93m5[0m
+    [7m6454[0m     ngOnInit(): void;
+    [7m    [0m [96m    ~~~~~~~~~~~~~~~~~[0m
+    'ngOnInit' is declared here.
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS2390: [0mConstructor implementation is missing.
+
+[7m13[0m   constructor
+[7m  [0m [91m  ~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m14[0m:[93m1[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m14[0m }
+[7m  [0m [91m~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:47.868Z - Hash: 66be1ec50608729b - Time: 287ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m8[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BoardComponent' incorrectly implements interface 'OnInit'.
+  Property 'ngOnInit' is missing in type 'BoardComponent' but required in type 'OnInit'.
+
+[7m8[0m export class BoardComponent implements OnInit {
+[7m [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@angular/core/index.d.ts[0m:[93m6454[0m:[93m5[0m
+    [7m6454[0m     ngOnInit(): void;
+    [7m    [0m [96m    ~~~~~~~~~~~~~~~~~[0m
+    'ngOnInit' is declared here.
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m13[0m:[93m3[0m - [91merror[0m[90m TS2390: [0mConstructor implementation is missing.
+
+[7m13[0m   constructor()
+[7m  [0m [91m  ~~~~~~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.25 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:03:57.507Z - Hash: 8a497641ab6bfdf0 - Time: 361ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m8[0m:[93m14[0m - [91merror[0m[90m TS2420: [0mClass 'BoardComponent' incorrectly implements interface 'OnInit'.
+  Property 'ngOnInit' is missing in type 'BoardComponent' but required in type 'OnInit'.
+
+[7m8[0m export class BoardComponent implements OnInit {
+[7m [0m [91m             ~~~~~~~~~~~~~~[0m
+
+  [96mnode_modules/@angular/core/index.d.ts[0m:[93m6454[0m:[93m5[0m
+    [7m6454[0m     ngOnInit(): void;
+    [7m    [0m [96m    ~~~~~~~~~~~~~~~~~[0m
+    'ngOnInit' is declared here.
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.27 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:04:01.376Z - Hash: e9ffc80317a96108 - Time: 317ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:04:41.229Z - Hash: 2fc92394917fe74e - Time: 433ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'new' does not exist on type 'BoardComponent'.
+
+[7m16[0m       this.new
+[7m  [0m [91m           ~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.32 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:04:43.148Z - Hash: 748e004cd4e18275 - Time: 525ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'const' does not exist on type 'BoardComponent'.
+
+[7m16[0m       this.const name = new type(arguments);
+[7m  [0m [91m           ~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m16[0m       this.const name = new type(arguments);
+[7m  [0m [91m                 ~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m18[0m - [91merror[0m[90m TS2588: [0mCannot assign to 'name' because it is a constant.
+
+[7m16[0m       this.const name = new type(arguments);
+[7m  [0m [91m                 ~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m29[0m - [91merror[0m[90m TS2304: [0mCannot find name 'type'.
+
+[7m16[0m       this.const name = new type(arguments);
+[7m  [0m [91m                            ~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:04:44.234Z - Hash: e29e4dd45c75db62 - Time: 287ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'new' does not exist on type 'BoardComponent'.
+
+[7m16[0m       this.new
+[7m  [0m [91m           ~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:04:58.452Z - Hash: 8cb10f1808b4be48 - Time: 293ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'newa' does not exist on type 'BoardComponent'.
+
+[7m16[0m       this.newa
+[7m  [0m [91m           ~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:05:00.376Z - Hash: f8f9b32d78665ced - Time: 363ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'newaGame' does not exist on type 'BoardComponent'.
+
+[7m16[0m       this.newaGame
+[7m  [0m [91m           ~~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:05:04.970Z - Hash: c7cf5fe08c2bcdba - Time: 433ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'newGame' does not exist on type 'BoardComponent'.
+
+[7m16[0m       this.newGame
+[7m  [0m [91m           ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:05:09.727Z - Hash: efb63ed61259eef1 - Time: 366ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'newGame' does not exist on type 'BoardComponent'.
+
+[7m16[0m       this.newGame()
+[7m  [0m [91m           ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T02:10:27.784Z - Hash: 48d3b5963de72e9b - Time: 232ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'newGame' does not exist on type 'BoardComponent'.
+
+[7m16[0m       this.newGame(3)
+[7m  [0m [91m           ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:17.273Z - Hash: df3ae59cf9617d0e - Time: 1019ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m16[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'newGame' does not exist on type 'BoardComponent'.
+
+[7m16[0m       this.newGame()
+[7m  [0m [91m           ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:23.107Z - Hash: 0c323e869c9b4741 - Time: 420ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m19[0m:[93m3[0m - [91merror[0m[90m TS7008: [0mMember 'newGame' implicitly has an 'any' type.
+
+[7m19[0m   newGame
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:25.456Z - Hash: a50a170a6481b46b - Time: 417ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m19[0m:[93m3[0m - [91merror[0m[90m TS2391: [0mFunction implementation is missing or not immediately following the declaration.
+
+[7m19[0m   newGame ()
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m19[0m:[93m3[0m - [91merror[0m[90m TS7010: [0m'newGame', which lacks return-type annotation, implicitly has an 'any' return type.
+
+[7m19[0m   newGame ()
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.31 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:27.210Z - Hash: c7336a372a74b674 - Time: 417ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.31 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:29.527Z - Hash: 07cf936c3cf96fbb - Time: 453ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.31 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:32.339Z - Hash: 5d39b6aadcc5d779 - Time: 335ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.31 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:35.291Z - Hash: 211c59659bed02fa - Time: 511ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.32 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:37.287Z - Hash: 1d35f786371693d2 - Time: 659ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m20[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'sq'.
+
+[7m20[0m     sq
+[7m  [0m [91m    ~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.33 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:40.326Z - Hash: 6fcbd78000fc23be - Time: 512ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.33 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:43.510Z - Hash: 8c81ab942d3f7df1 - Time: 338ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m20[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m20[0m     this.squares:
+[7m  [0m [91m                ~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.34 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:48.574Z - Hash: 99b4e2f379ecdf10 - Time: 684ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m20[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m20[0m     this.squares: []
+[7m  [0m [91m                ~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.33 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T03:34:58.771Z - Hash: 47c1928bb85b8be8 - Time: 800ms
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m9[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'squares' has no initializer and is not definitely assigned in the constructor.
+
+[7m9[0m   squares: any[];
+[7m [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'xIsNext' has no initializer and is not definitely assigned in the constructor.
+
+[7m10[0m   xIsNext: boolean;
+[7m  [0m [91m  ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.ts[0m:[93m11[0m:[93m3[0m - [91merror[0m[90m TS2564: [0mProperty 'winner' has no initializer and is not definitely assigned in the constructor.
+
+[7m11[0m   winner: string;
+[7m  [0m [91m  ~~~~~~[0m
+
+
+
+
+× Failed to compile.

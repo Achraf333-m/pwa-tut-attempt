@@ -1,0 +1,1546 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.35 MB |
+polyfills.js          | polyfills     | 333.17 kB |
+styles.css, styles.js | styles        | 230.91 kB |
+main.js               | main          |  14.89 kB |
+runtime.js            | runtime       |   6.52 kB |
+
+| Initial Total |   2.92 MB
+
+Build at: 2023-11-09T06:36:42.147Z - Hash: 465e6f82c4e9ba57 - Time: 9553ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:41:38.320Z - Hash: ceead0c80fa0c94c - Time: 1917ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:41:50.657Z - Hash: 903c226314ffa8da - Time: 396ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:41:54.261Z - Hash: 465e6f82c4e9ba57 - Time: 223ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:41:56.256Z - Hash: 04e095d60104e9e5 - Time: 262ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:41:57.554Z - Hash: 209a8e8758c012cb - Time: 264ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.68 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:41:59.131Z - Hash: 9665804f64b0f8cd - Time: 657ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m15[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'NbThemeModule'.
+
+[7m18[0m     NbThemeModule.forRoot(),
+[7m  [0m [91m    ~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  4.80 MB |
+main.js             | main    | 15.13 kB |
+runtime.js          | runtime |  6.52 kB |
+
+2 unchanged chunks
+
+Build at: 2023-11-09T06:42:30.356Z - Hash: eb85b3c053cd98a8 - Time: 12785ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.14 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:42:54.301Z - Hash: d10e1c97e990e4f0 - Time: 772ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m20[0m:[93m27[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'NbThemeOptions'.
+
+[7m20[0m     NbThemeModule.forRoot('dark'),
+[7m  [0m [91m                          ~~~~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.13 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:42:58.855Z - Hash: 2f735a164c31c2fd - Time: 496ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.16 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:43:24.463Z - Hash: 76bc75c8688d8f96 - Time: 624ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.16 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:48:00.607Z - Hash: 1ed10c107f65a5a3 - Time: 476ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.16 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:48:04.653Z - Hash: 585634d43afc9e9e - Time: 349ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.87 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:48:08.659Z - Hash: 711f784d9f0a71b0 - Time: 939ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Nb'.
+
+[7m21[0m     Nb
+[7m  [0m [91m    ~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.87 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:48:10.739Z - Hash: 932bfaac7e5e09bd - Time: 273ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Nbla'.
+
+[7m21[0m     Nbla
+[7m  [0m [91m    ~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.88 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:48:14.637Z - Hash: 4cf3e1a09b9885a3 - Time: 269ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Nblayout'.
+
+[7m21[0m     Nblayout
+[7m  [0m [91m    ~~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.28 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:48:17.004Z - Hash: c7168bc9e570452c - Time: 654ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.93 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:48:23.153Z - Hash: bf2d3d8ac1cc27c3 - Time: 496ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Nbeva'.
+
+[7m22[0m     Nbeva
+[7m  [0m [91m    ~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.28 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:48:29.767Z - Hash: 2cfb923f30a1761e - Time: 739ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2023-11-09T06:49:31.534Z - Hash: 2cfb923f30a1761e - Time: 1416ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.93 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:49:35.044Z - Hash: 52de15675dc8cf64 - Time: 435ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Nb'.
+
+[7m22[0m     Nb
+[7m  [0m [91m    ~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.93 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:49:37.078Z - Hash: 1f39f7029f30313a - Time: 315ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Nbev'.
+
+[7m22[0m     Nbev
+[7m  [0m [91m    ~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.93 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:49:38.197Z - Hash: 2b9625336ff99edd - Time: 353ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Nbeva'.
+
+[7m22[0m     Nbeva
+[7m  [0m [91m    ~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.93 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:49:39.308Z - Hash: b67cf1823fc88749 - Time: 216ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Nbevamo'.
+
+[7m22[0m     Nbevamo
+[7m  [0m [91m    ~~~~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.93 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:49:53.869Z - Hash: e34d8aa0301c1a22 - Time: 314ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Nb'.
+
+[7m22[0m     Nb
+[7m  [0m [91m    ~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.28 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:50:00.528Z - Hash: ca3e5872463fc046 - Time: 536ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.93 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:50:04.969Z - Hash: bdc54259cd5637b8 - Time: 374ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS2552: [0mCannot find name 'eva'. Did you mean 'eval'?
+
+[7m22[0m     eva
+[7m  [0m [91m    ~~~[0m
+
+  [96mnode_modules/typescript/lib/lib.es5.d.ts[0m:[93m33[0m:[93m18[0m
+    [7m33[0m declare function eval(x: string): any;
+    [7m  [0m [96m                 ~~~~[0m
+    'eval' is declared here.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.93 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:50:06.379Z - Hash: 9aec81a3553cabdd - Time: 250ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'app-board' is not a known element:
+1. If 'app-board' is an Angular component, then verify that it is part of this module.
+2. If 'app-board' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m1[0m <app-board></app-board>
+[7m [0m [91m~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.component.html[0m:[93m2[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m17[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue
+
+Error: [96msrc/app/app.module.ts[0m:[93m22[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'evai'.
+
+[7m22[0m     evai
+[7m  [0m [91m    ~~~~[0m
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m NG8001: [0m'app-square' is not a known element:
+1. If 'app-square' is an Angular component, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+Error: [96msrc/app/board/board.component.html[0m:[93m9[0m:[93m60[0m - [91merror[0m[90m NG8002: [0mCan't bind to 'value' since it isn't a known property of 'app-square'.
+1. If 'app-square' is an Angular component and it has 'value' input, then verify that it is part of this module.
+2. If 'app-square' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+3. To allow any property add 'NO_ERRORS_SCHEMA' to the '@NgModule.schemas' of this component.
+
+[7m9[0m     <app-square *ngFor="let val of squares; let i = index" [value]="val"  (click)="makeMove(i)">
+[7m [0m [91m                                                           ~~~~~~~~~~~~~[0m
+
+  [96msrc/app/board/board.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './board.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component BoardComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.28 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:50:10.219Z - Hash: 18260098ac70b82e - Time: 431ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.28 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:58:41.093Z - Hash: 2a3cefd68e807754 - Time: 427ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:58:45.921Z - Hash: b70a3198ed35ea22 - Time: 223ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "nb-layout" not terminated.
+
+[7m1[0m <nb-layout
+[7m [0m [91m~~~~~~~~~~[0m
+[7m2[0m 
+[7m [0m [91m[0m
+[7m3[0m <app-board></app-board>
+[7m [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.47 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:58:48.754Z - Hash: 880667db2e3bc98d - Time: 272ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.68 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:58:51.614Z - Hash: 768272ea3d842a14 - Time: 285ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:58:55.861Z - Hash: c0955935f422651e - Time: 216ms
+
+Error: [96msrc/app/app.component.html[0m:[93m3[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "nb" not terminated.
+
+[7m3[0m <nb
+[7m [0m [91m~~~[0m
+[7m4[0m 
+[7m [0m [91m[0m
+[7m5[0m 
+[7m [0m [91m[0m
+[7m6[0m </nb-layout>
+[7m [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.52 kB |
+
+4 unchanged chunks
+
+Build at: 2023-11-09T06:58:58.433Z - Hash: 16b62f5ee070c920 - Time: 204ms
+
+Error: [96msrc/app/app.component.html[0m:[93m3[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "nb-layout-header" not terminated.
+
+[7m3[0m <nb-layout-header
+[7m [0m [91m~~~~~~~~~~~~~~~~~[0m
+[7m4[0m 
+[7m [0m [91m[0m
+[7m5[0m 
+[7m [0m [91m[0m
+[7m6[0m </nb-layout>
+[7m [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.77 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:03.181Z - Hash: 9df080a7cf6e79a9 - Time: 266ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.80 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:06.197Z - Hash: beb3c3527f36de12 - Time: 421ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:09.293Z - Hash: d691f86abba53d5c - Time: 232ms
+
+Error: [96msrc/app/app.component.html[0m:[93m5[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mUnexpected closing tag "nb-layout-header". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+
+[7m5[0m </nb-layout-header>
+[7m [0m [91m~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.79 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:12.081Z - Hash: c4f8f9b6689b2011 - Time: 291ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:14.379Z - Hash: 41b5c7aab92bf267 - Time: 203ms
+
+Error: [96msrc/app/app.component.html[0m:[93m11[0m:[93m32[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF"
+
+[7m11[0m <router-outlet></router-outlet>
+[7m  [0m [91m                               [0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.80 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:17.530Z - Hash: e4620377d051ffaa - Time: 318ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.77 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:20.790Z - Hash: 854bd84a96775119 - Time: 314ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.80 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:23.317Z - Hash: 00b73ee52a88c724 - Time: 275ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.79 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:28.644Z - Hash: 5f9a796390c23170 - Time: 271ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.80 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:33.060Z - Hash: 671c5b1af3b02d9a - Time: 285ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:40.186Z - Hash: 40ccf2edb4694fe6 - Time: 231ms
+
+Error: [96msrc/app/app.component.html[0m:[93m7[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "nb" not terminated.
+
+[7m7[0m <nb
+[7m [0m [91m~~~[0m
+[7m8[0m 
+[7m [0m [91m[0m
+[7m9[0m </nb-layout>
+[7m [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.52 kB |
+
+4 unchanged chunks
+
+Build at: 2023-11-09T06:59:41.711Z - Hash: 5d1660b9498eebb2 - Time: 204ms
+
+Error: [96msrc/app/app.component.html[0m:[93m7[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "nb-layout-column" not terminated.
+
+[7m7[0m <nb-layout-column
+[7m [0m [91m~~~~~~~~~~~~~~~~~[0m
+[7m8[0m 
+[7m [0m [91m[0m
+[7m9[0m </nb-layout>
+[7m [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:44.549Z - Hash: 9019b56b80564732 - Time: 327ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:47.790Z - Hash: e5aaa3098a463b59 - Time: 336ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:50.313Z - Hash: 914061572088d4f0 - Time: 258ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.96 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:55.210Z - Hash: 6fa5935a931fda4d - Time: 256ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.96 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:57.482Z - Hash: 4567d4043d37a134 - Time: 330ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.96 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T06:59:58.547Z - Hash: 8ba26a714bf43e31 - Time: 260ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T07:00:01.468Z - Hash: 46bc2146b0d8fa68 - Time: 221ms
+
+Error: [96msrc/app/app.component.html[0m:[93m13[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "nb" not terminated.
+
+[7m13[0m <nb
+[7m  [0m [91m~~~[0m
+[7m14[0m 
+[7m  [0m [91m[0m
+[7m15[0m </nb-layout>
+[7m  [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.52 kB |
+
+4 unchanged chunks
+
+Build at: 2023-11-09T07:00:03.698Z - Hash: b45bbee947d43c29 - Time: 194ms
+
+Error: [96msrc/app/app.component.html[0m:[93m13[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "nb-layout-footer" not terminated.
+
+[7m13[0m <nb-layout-footer
+[7m  [0m [91m~~~~~~~~~~~~~~~~~[0m
+[7m14[0m 
+[7m  [0m [91m[0m
+[7m15[0m </nb-layout>
+[7m  [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 16.18 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T07:00:05.789Z - Hash: ff1fa35faa82d82b - Time: 303ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 16.18 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-09T07:00:08.076Z - Hash: e7a5c5c19dfcc65d - Time: 340ms
+
+√ Compiled successfully.

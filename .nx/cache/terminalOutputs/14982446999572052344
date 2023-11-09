@@ -1,0 +1,6 @@
+npm ERR! Missing script: "@nebular/themes"
+npm ERR! 
+npm ERR! To see a list of scripts, run:
+npm ERR!   npm run
+
+npm ERR! A complete log of this run can be found in: C:\Users\achra\AppData\Local\npm-cache\_logs\2023-11-05T19_47_16_589Z-debug-0.log

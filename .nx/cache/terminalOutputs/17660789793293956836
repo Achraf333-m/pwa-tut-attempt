@@ -1,0 +1,1249 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.35 MB |
+polyfills.js          | polyfills     | 333.17 kB |
+styles.css, styles.js | styles        | 230.91 kB |
+main.js               | main          |  13.99 kB |
+runtime.js            | runtime       |   6.52 kB |
+
+| Initial Total |   2.92 MB
+
+Build at: 2023-11-05T18:54:13.891Z - Hash: a1fe27e05020288e - Time: 9311ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.84 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T18:54:39.777Z - Hash: 7b32610c9b7d2f2c - Time: 724ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.77 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T18:54:40.640Z - Hash: 474d52c002e13fc3 - Time: 452ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T18:54:42.106Z - Hash: 0a2a46d940018925 - Time: 256ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "bo" not terminated.
+
+[7m1[0m <bo
+[7m [0m [91m~~~[0m
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.77 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T18:54:45.438Z - Hash: 390512d4dc944a3f - Time: 277ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.85 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T18:55:19.228Z - Hash: f383f8b1c61664b6 - Time: 362ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.77 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T18:55:24.942Z - Hash: 390512d4dc944a3f - Time: 257ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.29 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T18:56:35.226Z - Hash: 598a677c025d217a - Time: 354ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "app" not terminated.
+
+[7m1[0m <app
+[7m [0m [91m~~~~[0m
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.52 kB |
+
+4 unchanged chunks
+
+Build at: 2023-11-05T18:56:36.432Z - Hash: 3545b707239c8def - Time: 315ms
+
+Error: [96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mOpening tag "app-board" not terminated.
+
+[7m1[0m <app-board
+[7m [0m [91m~~~~~~~~~~[0m
+[7m2[0m <router-outlet></router-outlet>
+[7m [0m [91m[0m
+
+  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m
+    [7m5[0m   templateUrl: './app.component.html',
+    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m
+    Error occurs in the template of component AppComponent.
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.99 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T18:56:37.901Z - Hash: 6afdb10d03a66f05 - Time: 382ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.83 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:01:32.281Z - Hash: b99430d0dd3a94a0 - Time: 585ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.80 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:01:34.679Z - Hash: 0f80dc4721b3b4b7 - Time: 235ms
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m6[0m:[93m13[0m - [91merror[0m[90m NG5002: [0mParser Error: Blank expressions are not allowed in interpolated strings
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.80 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:01:37.087Z - Hash: 2b519186acf1090c - Time: 235ms
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m6[0m:[93m13[0m - [91merror[0m[90m NG5002: [0mParser Error: Blank expressions are not allowed in interpolated strings
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.15 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:01:39.451Z - Hash: ea1c42e204716dcc - Time: 323ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.18 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:05:19.826Z - Hash: ca418d46a14c7a1c - Time: 691ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.19 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:05:33.603Z - Hash: 22f56a495164d164 - Time: 423ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.16 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:05:36.964Z - Hash: 9cf51fdb43718783 - Time: 351ms
+
+./src/app/board/board.component.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+   ╷
+10 │     flex: ;
+   │           ^
+   ╵
+  src\app\board\board.component.scss 10:11  root stylesheet
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.16 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:05:40.356Z - Hash: e4e345ce3d083326 - Time: 265ms
+
+./src/app/board/board.component.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+   ╷
+10 │     fl;
+   │       ^
+   ╵
+  src\app\board\board.component.scss 10:7  root stylesheet
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.25 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:05:44.072Z - Hash: 6eef812d6c8831d0 - Time: 300ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.31 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:05:46.052Z - Hash: 081be4454ae9ece2 - Time: 372ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.40 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:05:49.381Z - Hash: 4825882dc1a63287 - Time: 319ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.41 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:01.400Z - Hash: c1271fc6f6500cfe - Time: 309ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.17 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:05.410Z - Hash: 47bcaf5f0508fd4e - Time: 245ms
+
+./src/app/board/board.component.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+   ╷
+13 │     font-size: ;
+   │                ^
+   ╵
+  src\app\board\board.component.scss 13:16  root stylesheet
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.46 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:07.709Z - Hash: d67a6d54a81623ba - Time: 420ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.46 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:08.863Z - Hash: c69ef60280b83a34 - Time: 363ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.40 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:21.451Z - Hash: d02610f98f66386f - Time: 302ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.40 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:42.655Z - Hash: 4689b272f0f3b6f4 - Time: 545ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.42 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:45.511Z - Hash: 2da00ba88457e3ca - Time: 253ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.42 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:53.389Z - Hash: 312c6c13969d5ca3 - Time: 267ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.42 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:55.712Z - Hash: 16d52f674fa2bf51 - Time: 223ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 20.61 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:06:58.576Z - Hash: 77db3a4905d52dd4 - Time: 336ms
+
+./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):
+SyntaxError: C:\Users\achra\OneDrive\Bureau\tictactow-pwa-angular\tictactoe\src\app\square\square.component.ts: Unexpected token (15:16)
+
+  13 |   `,
+  14 |         styles: [
+> 15 |                 .btn
+     |                 ^
+  16 |         ]
+  17 |     })
+  18 | ], SquareComponent);
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m12[0m:[93m14[0m
+    [7m12[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m9[0m     .btn
+[7m [0m [91m    ~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 20.61 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:07:00.055Z - Hash: f272e0ebbc1e72c6 - Time: 307ms
+
+./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):
+SyntaxError: C:\Users\achra\OneDrive\Bureau\tictactow-pwa-angular\tictactoe\src\app\square\square.component.ts: Unexpected token (15:16)
+
+  13 |   `,
+  14 |         styles: [
+> 15 |                 .btn, {}
+     |                 ^
+  16 |         ]
+  17 |     })
+  18 | ], SquareComponent);
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m9[0m     .btn {
+[7m [0m [91m    ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m9[0m     .btn {
+[7m [0m [91m         ~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.52 kB |
+
+4 unchanged chunks
+
+Build at: 2023-11-05T19:07:09.735Z - Hash: a66f75a4052df199 - Time: 193ms
+
+./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):
+SyntaxError: C:\Users\achra\OneDrive\Bureau\tictactow-pwa-angular\tictactoe\src\app\square\square.component.ts: Unexpected token (15:16)
+
+  13 |   `,
+  14 |         styles: [
+> 15 |                 .btn, {
+     |                 ^
+  16 |                 di
+  17 |             }
+  18 |         ]
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m9[0m     .btn {
+[7m [0m [91m    ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m9[0m     .btn {
+[7m [0m [91m         ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m10[0m:[93m7[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'di'. Either declare one or provide an initializer.
+
+[7m10[0m       di
+[7m  [0m [91m      ~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.52 kB |
+
+4 unchanged chunks
+
+Build at: 2023-11-05T19:07:10.813Z - Hash: 7d1cbbcc74d859de - Time: 197ms
+
+./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):
+SyntaxError: C:\Users\achra\OneDrive\Bureau\tictactow-pwa-angular\tictactoe\src\app\square\square.component.ts: Unexpected token (15:16)
+
+  13 |   `,
+  14 |         styles: [
+> 15 |                 .btn, {
+     |                 ^
+  16 |                 dis
+  17 |             }
+  18 |         ]
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m9[0m     .btn {
+[7m [0m [91m    ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m9[0m     .btn {
+[7m [0m [91m         ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m10[0m:[93m7[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'dis'. Either declare one or provide an initializer.
+
+[7m10[0m       dis
+[7m  [0m [91m      ~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime |  6.52 kB |
+
+4 unchanged chunks
+
+Build at: 2023-11-05T19:07:12.375Z - Hash: f272e0ebbc1e72c6 - Time: 154ms
+
+./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):
+SyntaxError: C:\Users\achra\OneDrive\Bureau\tictactow-pwa-angular\tictactoe\src\app\square\square.component.ts: Unexpected token (15:16)
+
+  13 |   `,
+  14 |         styles: [
+> 15 |                 .btn, {}
+     |                 ^
+  16 |         ]
+  17 |     })
+  18 | ], SquareComponent);
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m9[0m     .btn {
+[7m [0m [91m    ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m10[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m9[0m     .btn {
+[7m [0m [91m         ~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.48 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:07:14.134Z - Hash: d1d8cc2facecae7c - Time: 216ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'btn'.
+
+[7m9[0m     btn {
+[7m [0m [91m    ~~~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m9[0m     btn {
+[7m [0m [91m        ~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.42 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:07:17.254Z - Hash: f877facf8ca99e09 - Time: 365ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.47 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:09:42.962Z - Hash: 8d6e662c294e9520 - Time: 370ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m12[0m - [91merror[0m[90m TS2322: [0mType '{}' is not assignable to type 'string'.
+
+[7m 8[0m   styles: [{
+[7m  [0m [91m           ~[0m
+[7m 9[0m 
+[7m  [0m [91m[0m
+[7m10[0m   }
+[7m  [0m [91m~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.48 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:09:49.687Z - Hash: 01b58ae194fbd988 - Time: 190ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m14[0m:[93m14[0m
+    [7m14[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m12[0m - [91merror[0m[90m TS2322: [0mType '{ btn: any; }' is not assignable to type 'string'.
+
+[7m 8[0m   styles: [{
+[7m  [0m [91m           ~[0m
+[7m 9[0m     btn
+[7m  [0m [91m~~~~~~~[0m
+[7m10[0m   }
+[7m  [0m [91m~~~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'btn'. Either declare one or provide an initializer.
+
+[7m9[0m     btn
+[7m [0m [91m    ~~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.49 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:09:51.567Z - Hash: 8d01d6c3aac9d767 - Time: 183ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m12[0m - [91merror[0m[90m TS2322: [0mType '{ btn: any; }' is not assignable to type 'string'.
+
+[7m8[0m   styles: [{
+[7m [0m [91m           ~[0m
+[7m9[0m     btn {
+[7m [0m [91m~~~~~~~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'btn'. Either declare one or provide an initializer.
+
+[7m9[0m     btn {
+[7m [0m [91m    ~~~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m9[0m     btn {
+[7m [0m [91m        ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType '{}' is not assignable to type 'string'.
+
+[7m 9[0m     btn {
+[7m  [0m [91m        ~[0m
+[7m10[0m 
+[7m  [0m [91m[0m
+[7m11[0m     }
+[7m  [0m [91m~~~~~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m12[0m   }
+[7m  [0m [91m  ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m14[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m14[0m   ]
+[7m  [0m [91m  ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m15[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m15[0m })
+[7m  [0m [91m~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.50 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:09:54.003Z - Hash: 33ffd33b0ca1a625 - Time: 170ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m16[0m:[93m14[0m
+    [7m16[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m12[0m - [91merror[0m[90m TS2322: [0mType '{ btn: any; }' is not assignable to type 'string'.
+
+[7m8[0m   styles: [{
+[7m [0m [91m           ~[0m
+[7m9[0m     btn {
+[7m [0m [91m~~~~~~~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m5[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'btn'. Either declare one or provide an initializer.
+
+[7m9[0m     btn {
+[7m [0m [91m    ~~~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m9[0m     btn {
+[7m [0m [91m        ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m9[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType '{ dispa: any; }' is not assignable to type 'string'.
+
+[7m 9[0m     btn {
+[7m  [0m [91m        ~[0m
+[7m10[0m       dispa
+[7m  [0m [91m~~~~~~~~~~~[0m
+[7m11[0m     }
+[7m  [0m [91m~~~~~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m10[0m:[93m7[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'dispa'. Either declare one or provide an initializer.
+
+[7m10[0m       dispa
+[7m  [0m [91m      ~~~~~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m12[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m12[0m   }
+[7m  [0m [91m  ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m14[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m14[0m   ]
+[7m  [0m [91m  ~[0m
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m15[0m:[93m1[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m15[0m })
+[7m  [0m [91m~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 13.47 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:09:57.791Z - Hash: 1b5d92d5a596f370 - Time: 158ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m12[0m:[93m5[0m - [91merror[0m[90m NG6001: [0mThe class 'SquareComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+
+[7m12[0m     SquareComponent,
+[7m  [0m [91m    ~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/square/square.component.ts[0m:[93m12[0m:[93m14[0m
+    [7m12[0m export class SquareComponent {
+    [7m  [0m [96m             ~~~~~~~~~~~~~~~[0m
+    'SquareComponent' is declared here.
+
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m11[0m - [91merror[0m[90m NG1010: [0mFailed to resolve styles
+
+Error: [96msrc/app/square/square.component.ts[0m:[93m8[0m:[93m12[0m - [91merror[0m[90m TS2322: [0mType '{}' is not assignable to type 'string'.
+
+[7m8[0m   styles: [{}
+[7m [0m [91m           ~~[0m
+
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.42 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:03.906Z - Hash: 7882f108f820d538 - Time: 417ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.42 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:07.071Z - Hash: 12c82bba8abf13e4 - Time: 217ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.40 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:10.145Z - Hash: 9a3302783f510e42 - Time: 191ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.22 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:13.177Z - Hash: cd4bb6065d78096c - Time: 240ms
+
+./src/app/square/square.component.ts-1.scss?ngResource!=!./node_modules/@ngtools/webpack/src/loaders/inline-resource.js!./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+1 │ bt
+  │   ^
+  ╵
+  src\app\square\square.component.ts 1:3  root stylesheet
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.40 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:15.395Z - Hash: 166f2bea393a9907 - Time: 249ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.58 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:18.374Z - Hash: 75e23eeb7b85360e - Time: 238ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.23 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:24.826Z - Hash: 13e25c04e6c33de8 - Time: 157ms
+
+./src/app/square/square.component.ts-3.scss?ngResource!=!./node_modules/@ngtools/webpack/src/loaders/inline-resource.js!./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+2 │     disp
+  │         ^
+  ╵
+  src\app\square\square.component.ts 2:9  root stylesheet
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.23 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:26.474Z - Hash: c84d1ad8478d201a - Time: 264ms
+
+./src/app/square/square.component.ts-4.scss?ngResource!=!./node_modules/@ngtools/webpack/src/loaders/inline-resource.js!./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+2 │     display
+  │            ^
+  ╵
+  src\app\square\square.component.ts 2:12  root stylesheet
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.78 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:28.976Z - Hash: 9e3f36f8771d1da1 - Time: 283ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.23 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:36.933Z - Hash: dde0400dd6b345eb - Time: 183ms
+
+./src/app/square/square.component.ts-6.scss?ngResource!=!./node_modules/@ngtools/webpack/src/loaders/inline-resource.js!./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected "{".
+  ╷
+2 │     width
+  │          ^
+  ╵
+  src\app\square\square.component.ts 2:10  root stylesheet
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.23 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:39.160Z - Hash: a8a2adada3864e48 - Time: 185ms
+
+./src/app/square/square.component.ts-7.scss?ngResource!=!./node_modules/@ngtools/webpack/src/loaders/inline-resource.js!./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+Expected expression.
+  ╷
+2 │     width: 
+  │            ^
+  ╵
+  src\app\square\square.component.ts 2:12  root stylesheet
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.77 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:41.252Z - Hash: 5bcf1b51b4653d46 - Time: 233ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.77 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:42.829Z - Hash: 48d7c5aa07e9bb6a - Time: 364ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 15.24 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:10:53.091Z - Hash: 4a3074eb58a023f8 - Time: 187ms
+
+./src/app/square/square.component.ts-10.scss?ngResource!=!./node_modules/@ngtools/webpack/src/loaders/inline-resource.js!./src/app/square/square.component.ts - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+expected ";".
+  ╷
+3 │     height: 100%
+  │           ^
+  ╵
+  src\app\square\square.component.ts 3:11  root stylesheet
+
+
+
+× Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.83 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:11:00.512Z - Hash: 1bd941d282c07148 - Time: 232ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.83 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:11:09.439Z - Hash: d1db31bca369bbf0 - Time: 287ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.84 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:11:13.130Z - Hash: 6905a4a8299770b0 - Time: 245ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:11:19.445Z - Hash: 7941a12cb9d6b2fa - Time: 289ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 14.89 kB |
+runtime.js          | runtime |  6.52 kB |
+
+3 unchanged chunks
+
+Build at: 2023-11-05T19:11:28.652Z - Hash: 947f14cf5724c62a - Time: 251ms
+
+√ Compiled successfully.
